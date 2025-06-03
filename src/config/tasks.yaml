@@ -1,0 +1,76 @@
+tasks:
+  - description: "gather_requirements_from_client"
+    assigned_to: business_analyst_1
+    approval_required: true
+
+  - description: "finalize_requirements_document"
+    assigned_to: business_analyst_1
+    approval_required: true
+
+  - description: "draft_solution_architecture"
+    assigned_to: solution_architect_1
+    approval_required: true
+
+  - description: "review_architecture_with_system_designer"
+    assigned_to: system_designer_1
+    approval_required: false
+
+  - description: "create_uiux_wireframes"
+    assigned_to: uiux_designer_1
+    approval_required: true
+
+  - description: "review_wireframes_with_user"
+    assigned_to: uiux_lead
+    approval_required: true
+
+  - description: "setup_frontend_repo"
+    assigned_to: frontend_engineer_1
+    approval_required: false
+
+  - description: "implement_login_page_ui"
+    assigned_to: frontend_engineer_1
+    approval_required: false
+
+  - description: "implement_authentication_api"
+    assigned_to: backend_engineer_1
+    approval_required: false
+
+  - description: "design_database_schema"
+    assigned_to: database_engineer_1
+    approval_required: true
+
+  - description: "develop_ml_model_prototype"
+    assigned_to: ml_engineer_1
+    approval_required: false
+
+  - description: "setup_ci_cd_pipeline"
+    assigned_to: devops_engineer_1
+    approval_required: false
+
+  - description: "conduct_security_audit"
+    assigned_to: network_security_engineer_1
+    approval_required: true
+
+  - description: "run_unit_tests"
+    assigned_to: qa_engineer_1
+    approval_required: false
+
+  - description: "deploy_to_staging"
+    assigned_to: devops_engineer_1
+    approval_required: true
+
+  - description: "user_acceptance_testing"
+    assigned_to: qa_lead
+    approval_required: true
+
+  - description: "deploy_to_production"
+    assigned_to: devops_engineer_1
+    approval_required: true
+
+  - description: "monitor_post_deployment"
+    assigned_to: support_engineer_1
+    approval_required: false
+
+  - description: "handle_user_support_tickets"
+    assigned_to: support_engineer_1
+    approval_required: false

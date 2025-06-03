@@ -13,4 +13,6 @@ class BaseAgent:
         return f"{self.role}('{self.name}', reports_to='{self.reports_to}')"
 
     def perform_task(self, task):
-        print(f"{self.name} performing task: {task}")
+        for task in self.tasks:
+            print(f"[{self.role}] {self.name}: Performing '{task.description}'")
+            task.mark_complete()
